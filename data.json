@@ -1,0 +1,8 @@
+[
+    {"id": 1, "name": "Trees", "description": "Description of item 1"},
+    {"id": 2, "name": "Plants", "description": "Description of item 2"},
+    {"id": 3, "name": "Flowers", "description": "Description of item 3"},
+    {"id": 4, "name": "Grass", "description": "Description of item 4"},
+    {"id": 5, "name": "bushes", "description": "Description of item 5"},
+    {"id": 6, "name": "forests", "description": "Description of item 6"}
+]

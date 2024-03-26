@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Demo Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+         
+        </ul>
+        <style>
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: flex-end; /* Align items to the right */
+            }
+    
+            nav ul li {
+                margin-left: 10px; /* Add spacing between links */
+            }
+        </style>
+    </nav>
+    <section class="content">
+        <h2>Fetch JSON Data</h2>
+        <button id="getDataBtn">Get Data</button>
+        <div id="dataContainer"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

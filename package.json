@@ -1,0 +1,15 @@
+{
+  "name": "microproject",
+  "version": "1.0.0",
+  "description": "A simple Express application for MicroProject",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

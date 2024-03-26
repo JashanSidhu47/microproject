@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5cb85c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+h2, h3, h4, h5, h6 {
+    color: #5cb85c;
+}
+
+h2 {
+    font-size: 28px; /* Increased font size for h2 */
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px; /* Decreased font size for h4 */
+}
+
+h5 {
+    font-size: 18px; /* Decreased font size for h5 */
+}
+
+h6 {
+    font-size: 16px; /* Decreased font size for h6 */
+}
+
